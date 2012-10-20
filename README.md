@@ -5,6 +5,7 @@ This is a spelling corrector implementing the Damerau-Levenshtein distance. Take
 
 * Go programming language [installation instructions](http://golang.org/doc/install).
 * For setting up the Go workspace check out [How to Write Go Code](http://golang.org/doc/code.html#tmp_13) or [Get started with Go](http://youtu.be/2KmHtgtEZ1s).
+* Check out the package documentation page: [damerau GoPkgDoc Documentation](http://go.pkgdoc.org/github.com/jhprks/damerau)
 
 ### To install the damerau package:
 
