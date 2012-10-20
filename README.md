@@ -1,0 +1,2 @@
+## Damerau–Levenshtein distance
+This is a spelling corrector implementing the Damerau-Levenshtein distance. Takes a string value input from the user. Looks for an identical word on a list of words, if none is found, look for a similar word.
