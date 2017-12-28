@@ -5,21 +5,21 @@ This is a spelling corrector implementing the Damerau-Levenshtein distance. Take
 
 * Go programming language [installation instructions](http://golang.org/doc/install).
 * For setting up the Go workspace check out [How to Write Go Code](http://golang.org/doc/code.html#tmp_13) or [Get started with Go](http://youtu.be/2KmHtgtEZ1s).
-* Check out the package documentation page: [damerau GoPkgDoc Documentation](http://go.pkgdoc.org/github.com/jhprks/damerau)
+* Check out the package documentation page: [damerau GoPkgDoc Documentation](http://go.pkgdoc.org/github.com/ambrevar/damerau)
 
 ### To install the damerau package:
 
-    $ go get github.com/jhprks/damerau
-    
+    $ go get github.com/ambrevar/damerau
+
 To use it in a program:
 
 ```Go
-import "github.com/jhprks/damerau"
+import "github.com/ambrevar/damerau"
 ```
 
 ### To install it immediately for command-line use:
 
-    $ go get github.com/jhprks/damerau/damerau
+    $ go get github.com/ambrevar/damerau/damerau
 
 **The program must be given two arguments for command line use:**
 
@@ -31,3 +31,8 @@ import "github.com/jhprks/damerau"
     $ damerau -file="words.txt" -word="korrecter"
 
 Output: `[correct correctly correct.]`
+
+### Version notes
+
+This code used to be hosted at "github.com/jhprks/damerau" until it went down
+some time in 2017.

@@ -3,7 +3,8 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/jhprks/damerau"
+
+	"github.com/ambrevar/damerau"
 )
 
 func main() {
